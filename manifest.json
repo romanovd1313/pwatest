@@ -2,11 +2,10 @@
   "name": "Future Imperfect",
   "short_name": "Dima",
   "lang": "en-US",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone"
-
-{
- "name": "App",
+  "theme_color": "#E6E6FA",
+  "background_color": "#E6E6FA",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
