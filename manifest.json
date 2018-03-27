@@ -2,7 +2,7 @@
   "name": "Dima's application",
   "short_name": "Dima",
   "lang": "en-US",
-  "start_url": "./index.html",
+  "start_url": "./pwatest/index.html",
   "display": "standalone",
   "theme_color": "#E6E6FA",
   "background_color": "#E6E6FA",
