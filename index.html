@@ -30,6 +30,20 @@
 		<meta name="theme-color" content="#E6E6FA">
 		<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script>
+			if ('serviceWorker' in navigator) {
+			  window.addEventListener('load', function() {
+				navigator.serviceWorker.register('/sw.js').then(function(registration) {
+				  // Registration was successful
+				  console.log('ServiceWorker registration successful with scope: ', registration.scope);
+				}, function(err) {
+				  // registration failed :(
+				  console.log('ServiceWorker registration failed: ', err);
+				});
+			  });
+			}
+	</script>
+	
 	<title>Marble &mdash; Free HTML5 Bootstrap Website Template by FreeHTML5.co</title>
 	
 		
@@ -292,19 +306,7 @@
 		
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
-	<script>
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/sw.js').then(function(registration) {
-      // Registration was successful
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
-      // registration failed :(
-      console.log('ServiceWorker registration failed: ', err);
-    });
-  });
-}
-</script>
+	
 	</body>
 </html>
 
