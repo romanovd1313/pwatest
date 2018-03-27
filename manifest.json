@@ -3,7 +3,7 @@
   "short_name": "Dima",
   "lang": "en-US",
   "start_url": "./",
-  "display": "standalone"
+  "display": "standalone",
   "theme_color": "#E6E6FA",
   "background_color": "#E6E6FA",
  "icons": [
