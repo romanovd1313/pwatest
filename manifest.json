@@ -2,7 +2,7 @@
   "name": "Future Imperfect",
   "short_name": "Dima",
   "lang": "en-US",
-  "start_url": "./",
+  "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#E6E6FA",
   "background_color": "#E6E6FA",
