@@ -1,8 +1,8 @@
 {
-  "name": "Future Imperfect",
+  "name": "Dima's application",
   "short_name": "Dima",
   "lang": "en-US",
-  "start_url": "./index.html",
+  "start_url": "./",
   "display": "standalone",
   "theme_color": "#E6E6FA",
   "background_color": "#E6E6FA",
@@ -40,6 +40,12 @@
   {
    "src": "\/android-icon-192x192.png",
    "sizes": "192x192",
+   "type": "image\/png",
+   "density": "4.0"
+  },
+  {
+   "src": "\/ms-icon-512x512.png",
+   "sizes": "512x512",
    "type": "image\/png",
    "density": "4.0"
   }
